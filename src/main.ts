@@ -14,6 +14,7 @@ function getWordsForState() {
   fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${state.typeWord}`)
     .then((resp) => resp.json())
     .then((word) => {
+      console.log(word);
       state.word = word[0];
       render();
     });
