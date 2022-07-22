@@ -1,0 +1,137 @@
+body {
+  background-color: #4e56ec;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+form {
+  position: relative;
+}
+
+button {
+  all: unset;
+  position: absolute;
+  left: 42px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.input {
+  height: 47px;
+  width: 320px;
+  padding-left: 25px;
+  border-color: #4e56ec;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.first-page {
+  border: solid 1px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  width: 430px;
+  height: 230px;
+  margin-top: 200px;
+}
+
+.english-dictionary {
+  text-align: center;
+  padding-top: 10px;
+}
+
+p {
+  color: grey;
+  text-align: center;
+}
+
+.second-page {
+  border: solid 1px;
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+  width: 430px;
+  height: 480px;
+  margin-top: 120px;
+}
+
+.english-dictionary {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.menaing-example-synonyms {
+  padding: 10px 40px 0px 40px;
+}
+
+.meaning {
+  border: 1px solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left-width: 5px;
+  border-left-color: #4e56ec;
+  /* border-top-left-radius: 10px; */
+  border-bottom-left-radius: 10px;
+}
+
+.meaning h4 {
+  padding-left: 5px;
+}
+.meaning p {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.example {
+  border: 1px solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left-width: 5px;
+  border-left-color: #4e56ec;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.example h4 {
+  padding-left: 5px;
+}
+
+.example p {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.synonyms {
+  border: 1px solid;
+  border-top: none;
+  border-bottom: none;
+  border-left-width: 5px;
+  border-right: none;
+  border-left-color: #4e56ec;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.synonyms h4 {
+  padding-left: 5px;
+}
+
+.synonyms p {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  padding-left: 5px;
+  text-align: left;
+}
